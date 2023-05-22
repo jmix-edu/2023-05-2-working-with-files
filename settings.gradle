@@ -1,0 +1,16 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == 'io.jmix') {
+                useModule("io.jmix.gradle:jmix-gradle-plugin:${requested.version}")
+            }
+        }
+    }
+    repositories {
+        maven {
+            allowInsecureProtocol true
+            url 'http://localhost:8081/repository/jmix'
+        }
+    }
+}
+rootProject.name = 'jmix-pm'
