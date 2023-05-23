@@ -40,6 +40,7 @@
                         <action id="entityClear" type="entity_clear"/>
                     </actions>
                 </entityPicker>
+                <checkBox id="defaultProjectField" property="defaultProject"/>
             </column>
         </form>
         <groupBox id="tasksBox"

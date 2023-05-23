@@ -55,6 +55,8 @@
                 <column id="email"/>
                 <column id="timeZoneId"/>
                 <column id="active"/>
+                <column id="avatar"/>
+                <column id="imageColumn" caption="Image"/>
             </columns>
             <simplePagination/>
             <buttonsPanel id="buttonsPanel"
